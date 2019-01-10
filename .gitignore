@@ -1,0 +1,8 @@
+# Dependencies
+node_modules
+
+# Generated files
+dist
+
+# npm lockfile (this project uses Yarn)
+package-lock.json
