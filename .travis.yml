@@ -7,3 +7,14 @@ cache: yarn
 
 script:
   - yarn lint
+
+before_deploy:
+  - yarn build
+
+deploy:
+  provider: npm
+  email: jaspervmerle@gmail.com
+  api_key:
+    secure: lHJFZi4NipLXq69/TRrsxHbXNzmD6OfcaSiiVR3toDDMTCeYnbGQrV3yXl5oet9Lb6dX8lldc4ErDUA6gPlr+3B/idxtnZ+Mhd3YbPno/tWggKHC72LUA+VBjvzXTVBzdxw9OtCK2j4ECYiKotenkIJnOBZB3nKyeoYDCYcI9TKtlLMZWPMqyaqSDBTBN1hKFhOnde6F0EwvklN+jAqZUCZGV4RqN576SCXRy4DQXBzZ4M3MBxko38nLz3YUFolnkek9pO3K7j9wBZmTwElAGXou2O8qWWhAtNn5Nd8WYqVueDJ/5F8ICwU7mFekWnNOU6vy1rs2pDyuIjb9GbHrUzhi4tVv5KheY28x1K9qNZd9TD2xoT7LUFfhaU2fFK7D1HL9px6BkHiz9yBgh1HlzUA7pI0LCLpvmo5InUkLAJCiFZVTYuaxXkvu9IDZxQQ7MXDaXGewwKaYG7VDDR2HTJaHkEbWGbxL0DVtktTeSro0FpKZ2hW1u3xfjVPPUKrqbtcV1DF18GStkq5ccbyQ9S36Jd7naRReYoIa3e0Wl34+cXHFbIZEA1SQPxpF5u/L0qMxjJxx/lnhd49zsF/dYf1goTPZwdc9AxTWmx/bNCXmNOv0EmHH+esoikK/Om70Tr5OY6T7g3N7S2fmuvVHVuByrl31xlON1dm7MDhLvT4=
+  on:
+    tags: true

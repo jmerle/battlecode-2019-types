@@ -29,7 +29,7 @@
       "prettier --write",
       "git add"
     ],
-    "*.json": [
+    "*.{json,yml}": [
       "prettier --write",
       "git add"
     ]
