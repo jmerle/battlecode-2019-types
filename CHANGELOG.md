@@ -1,3 +1,6 @@
+# 1.2.0 - January 11th, 2019
+- Improve `Action.action` types
+
 # 1.1.2 - January 11th, 2019
 - Minor documentation change
 

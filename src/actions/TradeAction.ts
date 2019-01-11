@@ -1,10 +1,8 @@
 interface TradeAction extends Action {
   /**
    * The type of this action.
-   *
-   * In the case of TradeAction this is always "trade".
    */
-  action: ActionType;
+  action: 'trade';
 
   /**
    * The amount of fuel to propose.

@@ -1,10 +1,8 @@
 interface BuildAction extends Action {
   /**
    * The type of this action.
-   *
-   * In the case of BuildAction this is always "build".
    */
-  action: ActionType;
+  action: 'build';
 
   /**
    * The type of the unit to build.

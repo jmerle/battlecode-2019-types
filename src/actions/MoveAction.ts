@@ -1,10 +1,8 @@
 interface MoveAction extends Action {
   /**
    * The type of this action.
-   *
-   * In the case of MoveAction this is always "move".
    */
-  action: ActionType;
+  action: 'move';
 
   /**
    * The amount of steps to move in the x direction.

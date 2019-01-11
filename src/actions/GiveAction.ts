@@ -1,10 +1,8 @@
 interface GiveAction extends Action {
   /**
    * The type of this action.
-   *
-   * In the case of GiveAction this is always "give".
    */
-  action: ActionType;
+  action: 'give';
 
   /**
    * The amount of karbonite to give to the receiving robot.

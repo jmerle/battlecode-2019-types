@@ -1,10 +1,8 @@
 interface AttackAction extends Action {
   /**
    * The type of this action.
-   *
-   * In the case of AttackAction this is always "attack".
    */
-  action: ActionType;
+  action: 'attack';
 
   /**
    * The amount of steps away the targeted robot is in the x direction.
