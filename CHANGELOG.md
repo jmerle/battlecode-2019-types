@@ -1,3 +1,6 @@
+# 1.3.0 - January 12th, 2019
+- Allow `BCAbstractRobot.turn` to return falsy values
+
 # 1.2.0 - January 11th, 2019
 - Improve `Action.action` types
 

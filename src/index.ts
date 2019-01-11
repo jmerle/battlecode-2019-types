@@ -98,7 +98,7 @@ declare module 'battlecode' {
     /**
      * Play a single turn for a robot.
      */
-    public abstract turn(): Action | void;
+    public abstract turn(): Action | Falsy;
 
     /**
      * Plays a turn and returns the action.
