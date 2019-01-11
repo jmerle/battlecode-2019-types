@@ -1,3 +1,6 @@
+# 1.0.2 - January 11th, 2019
+- No changes, messed up the release title with 1.0.1
+
 # 1.0.1 - January 11th, 2019
 - Updated the BCAbstractRobot.turn return type
 - Fixed the Travis CI configuration
