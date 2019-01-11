@@ -5,9 +5,9 @@
     "sourceMap": false,
     "declaration": true,
     "strict": true,
-    "outFile": "./dist/index.js",
     "newLine": "LF",
-    "removeComments": false
+    "removeComments": false,
+    "outFile": "./dist/battlecode.js"
   },
   "include": ["./src/**/*.ts"],
   "exclude": ["node_modules", "dist"]

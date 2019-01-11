@@ -2,10 +2,10 @@
   "name": "battlecode-2019-types",
   "version": "1.0.0",
   "description": "Battlecode 2019 TypeScript declarations",
-  "typings": "./dist/index.d.ts",
   "repository": "https://github.com/jmerle/battlecode-2019-types",
   "author": "Jasper van Merle",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "build": "tsc",
     "lint": "tslint -p tsconfig.json -c tslint.json -t stylish"
