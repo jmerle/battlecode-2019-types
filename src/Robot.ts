@@ -85,4 +85,9 @@ interface Robot {
    * Available if {@link BCAbstractRobot.me} is a Castle.
    */
   castle_talk?: number;
+
+  /**
+   * The amount of milliseconds this robot has left in it's chess clock.
+   */
+  time: number;
 }

@@ -110,6 +110,14 @@ interface Specs {
   CHESS_EXTRA: number;
 
   /**
+   * The maximum amount of memory your robot can use in bytes (default: 50000000).
+   *
+   * At the time of writing, this limit is not enforced.
+   * It is unclear whether this will change later in the competition.
+   */
+  MAX_MEMORY: number;
+
+  /**
    * An array of specs of all the different units.
    *
    * The index is the id of the unit as specified in the {@link SPECS}, like {@link PILGRIM} and {@link CRUSADER}.
