@@ -86,9 +86,9 @@ declare module 'battlecode' {
     public fuel_map: boolean[][];
 
     /**
-     * Play a single turn for this robot.
+     * Play a single turn for a robot.
      */
-    public abstract turn(): Action | null | undefined;
+    public abstract turn(): Action | void;
 
     /**
      * Plays a turn and returns the action.
