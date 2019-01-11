@@ -1,4 +1,7 @@
 # 1.1.0 - January 11th, 2019
+- Fix GitHub pages deployment
+
+# 1.1.0 - January 11th, 2019
 - Add `Robot.time` and `SPECS.MAX_MEMORY`
 - Automatically generate and publish documentation to GitHub Pages
 
