@@ -165,7 +165,7 @@ declare module 'battlecode' {
      * Broadcast `value` to all robots within the squared radius `sq_radius`. Uses `sq_radius` Fuel.
      * Can be called multiple times in one `turn()`; however, only the most recent signal will be used, while each signal will cost fuel.
      *
-     * @param value - The value to signal, which should be between `0` and 2^{@link Specs.COMMUNICATION_BITS}-1 (inclusive)
+     * @param value - The value to signal, which should be between 0 and 2^{@link Specs.COMMUNICATION_BITS}-1 (inclusive)
      * @param radius - The radius to signal in
      */
     public signal(value: number, radius: number): void;
@@ -174,7 +174,7 @@ declare module 'battlecode' {
      * Broadcast `value` to all castles of the same team. Does not use fuel.
      * Can be called multiple times in one `turn()`; however, only the most recent castle talk will be used.
      *
-     * @param value - The number to broadcast, which should be between `0` and 2^{@link Specs.CASTLE_TALK_BITS}-1 (inclusive)
+     * @param value - The number to broadcast, which should be between 0 and 2^{@link Specs.CASTLE_TALK_BITS}-1 (inclusive)
      */
     public castleTalk(value: number): void;
 

@@ -1,4 +1,7 @@
-# 1.1.0 - January 11th, 2019
+# 1.1.2 - January 11th, 2019
+- Minor documentation change
+
+# 1.1.1 - January 11th, 2019
 - Fix GitHub pages deployment
 
 # 1.1.0 - January 11th, 2019
