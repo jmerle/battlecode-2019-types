@@ -4,7 +4,7 @@
 
 TypeScript declarations for MIT's [Battlecode](https://battlecode.org/) 2019.
 
-Automatically generated documentation can be found [here](http://jmerle.github.io/battlecode-2019-types/).
+Automatically generated documentation can be found [here](https://jmerle.github.io/battlecode-2019-types/index.html).
 
 ## Usage
 

@@ -25,3 +25,5 @@ deploy:
     keep-history: true
     local-dir: docs
     github-token: $GH_TOKEN
+    on:
+      tags: true
