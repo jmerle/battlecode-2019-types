@@ -4,6 +4,8 @@
 
 TypeScript declarations for MIT's [Battlecode](https://battlecode.org/) 2019.
 
+Automatically generated documentation can be found [here](http://jmerle.github.io/battlecode-2019-types/).
+
 ## Usage
 
 Simply drop the `battlecode.d.ts` file from the [latest release](https://github.com/jmerle/battlecode-2019-types/releases) into your project.

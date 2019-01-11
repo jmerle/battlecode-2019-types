@@ -7,33 +7,43 @@ declare module 'battlecode' {
   /**
    * The abstract class that all implementations should extend from.
    *
-   * All the variables and methods starting with an underscore are used internally.
+   * All the variables and methods starting with an underscore are used to internally to process a turn and create actions.
    */
   abstract class BCAbstractRobot {
     /**
      * The log messages that will be sent this turn.
      *
-     * All items in this array are passed through {@link JSON.stringify} by {@link log}.
+     * All items in this array are passed through `JSON.stringify` by {@link log}.
+     *
+     * @private
      */
     public _bc_logs: string[];
 
     /**
      * The latest used signal value.
+     *
+     * @private
      */
     public _bc_signal: number;
 
     /**
      * The latest used signal radius.
+     *
+     * @private
      */
     public _bc_signal_radius: number;
 
     /**
      * The latest used castle talk message.
+     *
+     * @private
      */
     public _bc_castle_talk: number;
 
     /**
      * The current game state.
+     *
+     * @private
      */
     public _bc_game_state: GameState;
 
@@ -145,7 +155,7 @@ declare module 'battlecode' {
     /**
      * Print a message to the command line. You cannot use ordinary `console.log` in Battlecode for security reasons.
      *
-     * The message is converted to a string using {@link JSON.stringify}.
+     * The message is converted to a string using `JSON.stringify`.
      *
      * @param message - The message to log
      */

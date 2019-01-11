@@ -3,6 +3,7 @@ node_modules
 
 # Generated files
 dist
+docs
 
 # npm lockfile (this project uses Yarn)
 package-lock.json
