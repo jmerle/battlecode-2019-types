@@ -1,3 +1,7 @@
+# 1.3.1 - January 12th, 2019
+- Properly export `BCAbstractRobot` and `SPECS`
+- Updated readme
+
 # 1.3.0 - January 12th, 2019
 - Allow `BCAbstractRobot.turn` to return falsy values
 

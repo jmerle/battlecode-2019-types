@@ -2,14 +2,14 @@ declare module 'battlecode' {
   /**
    * The specifications of the current game.
    */
-  const SPECS: Specs;
+  export const SPECS: Specs;
 
   /**
    * The abstract class that all implementations should extend from.
    *
    * All the variables and methods starting with an underscore are used to internally to process a turn and create actions.
    */
-  abstract class BCAbstractRobot {
+  export abstract class BCAbstractRobot {
     /**
      * The log messages that will be sent this turn.
      *

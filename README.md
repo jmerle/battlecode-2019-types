@@ -2,12 +2,8 @@
 
 [![Build Status](https://travis-ci.com/jmerle/battlecode-2019-types.svg?branch=master)](https://travis-ci.com/jmerle/battlecode-2019-types)
 
-TypeScript declarations for MIT's [Battlecode](https://battlecode.org/) 2019.
+TypeScript declarations for MIT's [Battlecode](https://battlecode.org/) 2019. The latest bundled declarations file can be found on the [releases page](https://github.com/jmerle/battlecode-2019-types/releases).
 
 Automatically generated documentation can be found [here](https://jmerle.github.io/battlecode-2019-types/index.html).
 
-## Usage
-
-Simply drop the `battlecode.d.ts` file from the [latest release](https://github.com/jmerle/battlecode-2019-types/releases) into your project.
-
-Note that the package isn't available from [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped). This is because it can take about 7 days to get typings for a new package into the DefinitelyTyped repository, which isn't favorable in a contest that'll only take a month.
+A starter project can be found at [jmerle/battlecode-2019-typescript-starter](https://github.com/jmerle/battlecode-2019-typescript-starter).
