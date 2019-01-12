@@ -1,3 +1,6 @@
+# 1.3.2 - January 12th, 2019
+- `Robot.time` is not always available.
+
 # 1.3.1 - January 12th, 2019
 - Properly export `BCAbstractRobot` and `SPECS`
 - Updated readme
