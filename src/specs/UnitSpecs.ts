@@ -47,7 +47,7 @@ interface UnitSpecs {
   /**
    * An array specifying the minimum and maximum distance in which this unit can attack.
    */
-  ATTACK_RADIUS: number[] | null;
+  ATTACK_RADIUS: [number, number] | null;
 
   /**
    * The amount of fuel it takes for this unit to attack.

@@ -120,7 +120,13 @@ interface Specs {
   /**
    * An array of specs of all the different units.
    *
-   * The index is the id of the unit as specified in the {@link SPECS}, like {@link PILGRIM} and {@link CRUSADER}.
+   * Valid indexes are:
+   * - {@link CASTLE}
+   * - {@link CHURCH}
+   * - {@link PILGRIM}
+   * - {@link CRUSADER}
+   * - {@link PROPHET}
+   * - {@link PREACHER}
    */
   UNITS: UnitSpecs[];
 }

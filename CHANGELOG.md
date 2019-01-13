@@ -1,3 +1,8 @@
+# 1.3.3 - January 13th, 2019
+- Fixed documentation of `GameState.shadow`
+- Improved documentation of `Specs.UNITS`
+- Improved return type of `UnitSpecs.ATTACK_RADIUS`
+
 # 1.3.2 - January 12th, 2019
 - `Robot.time` is not always available.
 
