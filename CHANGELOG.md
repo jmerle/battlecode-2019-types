@@ -1,3 +1,6 @@
+# 1.3.4 - January 15th, 2019
+- Fixed documentation of `GameState.shadow` (again)
+
 # 1.3.3 - January 13th, 2019
 - Fixed documentation of `GameState.shadow`
 - Improved documentation of `Specs.UNITS`
